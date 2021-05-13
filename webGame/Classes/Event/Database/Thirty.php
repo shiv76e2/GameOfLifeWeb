@@ -1,7 +1,7 @@
 <?php
     
 $thirty = array();
-$thirty[] = new class implements Event{
+$thirty["3_001"] = new class implements Event{
     private $name = '結婚';
     
     public function event($character){
@@ -14,7 +14,7 @@ $thirty[] = new class implements Event{
         return $this->name;
     }
 };
-$thirty[] = new class implements Event{
+$thirty["3_002"] = new class implements Event{
     private $name = '破産';
     
     public function event($character){
@@ -28,9 +28,7 @@ $thirty[] = new class implements Event{
         return $this->name;
     }
 };
-
-$thirty = array();
-$thirty[] = new class implements Event{
+$thirty["3_003"] = new class implements Event{
     private $name = '結婚';
     
     public function event($character){
@@ -43,7 +41,7 @@ $thirty[] = new class implements Event{
         return $this->name;
     }
 };
-$thirty[] = new class implements Event{
+$thirty["3_004"] = new class implements Event{
     private $name = '成功';
     
     public function event($character){

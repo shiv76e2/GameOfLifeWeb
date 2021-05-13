@@ -1,6 +1,6 @@
 <?php
 $twenty = array();
-$twenty[] = new class implements Event{
+$twenty["2_001"] = new class implements Event{
     private $name = '宝くじ';
     
     public function event($character){
@@ -13,7 +13,7 @@ $twenty[] = new class implements Event{
         return $this->name;
     }
 };
-$twenty[] = new class implements Event{
+$twenty["2_002"] = new class implements Event{
     private $name = '???';
     
     public function event($character){
